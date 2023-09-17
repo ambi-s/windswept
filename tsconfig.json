@@ -17,7 +17,12 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* JSX */
+    "jsx": "react",
+    "jsxFactory": "jsx.createElement",
+    "jsxFragmentFactory": "jsx.Fragment"
   },
   "include": ["src"]
 }
