@@ -1,5 +1,5 @@
 import Phaser, { Types as pTypes } from "phaser";
-import MainScene from "@MainScene";
+import MainScene from "@/MainScene";
 
 export default class Game {
   config: pTypes.Core.GameConfig = {

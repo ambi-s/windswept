@@ -2,7 +2,7 @@ import { Scene } from "phaser";
 
 export default class MainScene extends Scene {
   preload() {
-    this.load.setBaseURL("http://labs.phaser.io/assets");
+    this.load.setBaseURL("//assets");
 
     this.load.image("sky", "sky.png");
     this.load.image("ground", "platform.png");
@@ -14,7 +14,9 @@ export default class MainScene extends Scene {
     });
   }
 
-  create() {}
+  create() {
+    this.add.image(400, 300, "sky");
+  }
 
   update() {}
 }

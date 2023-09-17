@@ -19,12 +19,8 @@
     /* JSX */
     "jsx": "react",
     "jsxFactory": "jsx.createElement",
-    "jsxFragmentFactory": "jsx.Fragment",
-    /* Paths */
-    "baseUrl": "./",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "jsxFragmentFactory": "jsx.Fragment"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "extends": "./jsconfig.json"
 }
