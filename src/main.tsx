@@ -1,4 +1,2 @@
-import jsx from "dom-chef";
-import wave from "./wave-haikei.svg";
+import Phaser from "phaser";
 
-document.querySelector<HTMLDivElement>("#app")!.appendChild(<img src={wave} />);
