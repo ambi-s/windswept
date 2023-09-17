@@ -1,2 +1,3 @@
-import Phaser from "phaser";
+import Game from "@index";
 
+new Game();

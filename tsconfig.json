@@ -20,6 +20,8 @@
     "jsx": "react",
     "jsxFactory": "jsx.createElement",
     "jsxFragmentFactory": "jsx.Fragment",
+    /* Paths */
+    "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"]
     }
